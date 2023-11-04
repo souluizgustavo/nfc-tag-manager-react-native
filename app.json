@@ -1,4 +1,11 @@
 {
   "name": "nfcmanager",
-  "displayName": "nfcmanager"
+  "displayName": "nfcmanager",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "aa4eeafa-91cb-4594-a906-595170856054"
+      }
+    }
+  }
 }
