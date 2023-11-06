@@ -7,7 +7,7 @@ const DeviceNotHaveNfc = () => (
   <Container>
     <MaterialCommunityIcons
       color={colors.secondaryColor}
-      name="nfc-variant-off"
+      name="cellphone-nfc-off"
       size={65}
     />
     <Title>Este dispositivo não possui antena NFC</Title>
