@@ -10,14 +10,16 @@ interface OptionsScreenProps {
 
 const OptionsScreen = ({ navigation }: OptionsScreenProps) => {
   const handleOnSelectOption = (option: WriteOptions) => {
+    // Opções para gravação
+    
     const nextRoute = {
       [WriteOptions.text]: AppRoutes.Text,
-      [WriteOptions.url]: AppRoutes.Url,
-      [WriteOptions.location]: AppRoutes.Location,
-      [WriteOptions.phoneNumber]: AppRoutes.Text,
+      //[WriteOptions.url]: AppRoutes.Url,
+      //[WriteOptions.location]: AppRoutes.Location,
+      //[WriteOptions.phoneNumber]: AppRoutes.Text,
     };
 
-    navigation.navigate(nextRoute[option]);
+    //navigation.navigate(nextRoute[option]);
   };
 
   return <Options onSelectOption={handleOnSelectOption} />;
