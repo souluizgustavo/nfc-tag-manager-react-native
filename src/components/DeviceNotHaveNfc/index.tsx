@@ -10,10 +10,10 @@ const DeviceNotHaveNfc = () => (
       name="nfc-variant-off"
       size={65}
     />
-    <Title>O seu smartphone não possui antena NFC</Title>
+    <Title>Este dispositivo não possui antena NFC</Title>
     <Description>
-      Verificamos que o seu smartphone não possui antena NFC, impossibilitando
-      assim utilização do app
+      Verificamos que o seu aparelho não possui antena NFC, impossibilitando
+      assim, a utilização do app
     </Description>
   </Container>
 );
