@@ -25,8 +25,8 @@ export type AppStackParamsList = {
   [AppRoutes.DeviceNotHaveNfc]: undefined;
   [AppRoutes.Options]: undefined;
   [AppRoutes.Text]: undefined;
-  [AppRoutes.Url]: undefined;
-  [AppRoutes.Location]: undefined;
+  //[AppRoutes.Url]: undefined;
+  //[AppRoutes.Location]: undefined;
   [AppRoutes.Success]: {
     tag: string;
   };

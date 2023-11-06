@@ -19,7 +19,7 @@ const OptionsScreen = ({ navigation }: OptionsScreenProps) => {
       //[WriteOptions.phoneNumber]: AppRoutes.Text,
     };
 
-    //navigation.navigate(nextRoute[option]);
+    navigation.navigate(nextRoute[option]);
   };
 
   return <Options onSelectOption={handleOnSelectOption} />;

@@ -19,6 +19,8 @@ interface HomeScreenProps {
 const HomeScreen = ({ navigation }: HomeScreenProps) => {
   const [componentState, setComponentState] = useState(ComponentStates.default);
 
+
+  // Leitura NFC
   const featuresList = [
     {
       name: FeatureOptions.read,
@@ -30,6 +32,8 @@ const HomeScreen = ({ navigation }: HomeScreenProps) => {
         />
       ),
     },
+
+    //Gravar NFC
     {
       name: FeatureOptions.write,
       icon: (
