@@ -14,7 +14,7 @@ export const AppRoutes = {
   Success: 'App.Success',
   Location: 'App.Location',
 } as const;
-
+// Não mexer
 export type AppStackParamsList = {
   [AppRoutes.Home]: undefined;
   [AppRoutes.ReadTag]: undefined;
@@ -25,8 +25,8 @@ export type AppStackParamsList = {
   [AppRoutes.DeviceNotHaveNfc]: undefined;
   [AppRoutes.Options]: undefined;
   [AppRoutes.Text]: undefined;
-  //[AppRoutes.Url]: undefined;
-  //[AppRoutes.Location]: undefined;
+  [AppRoutes.Url]: undefined;
+  [AppRoutes.Location]: undefined;
   [AppRoutes.Success]: {
     tag: string;
   };

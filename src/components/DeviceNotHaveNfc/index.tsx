@@ -16,14 +16,7 @@ const DeviceNotHaveNfc = () => (
       Verificamos que o seu aparelho não possui antena NFC, impossibilitando
       assim, a utilização do app
     </Description>
-    <Image
-    //source={require('../../../assets/logo-prisma.png')}
-    />
   </Container>
 );
-
-//const styles = StyleSheet.create({
-
-// })
 
 export { DeviceNotHaveNfc };
