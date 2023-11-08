@@ -22,3 +22,4 @@ export const Description = styled(Text)`
   color: ${colors.white};
   text-align: center;
 `;
+
