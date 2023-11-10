@@ -21,10 +21,10 @@ export const Container = styled.SafeAreaView`
 `;
 
 export const Option = styled.TouchableOpacity<OptionProps>`
-  background-color: ${colors.white};
+background-color: ${colors.white};
   padding: 32px 20px;
   border-radius: 8px;
-  width: ${deviceWidth / 2 - 25}px;
+  width: ${deviceWidth / 1- 30}px;
   align-items: center;
   justify-content: center;
   margin-bottom: 28px;

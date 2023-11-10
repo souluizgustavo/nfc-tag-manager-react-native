@@ -25,9 +25,9 @@ export enum WriteTagSteps {
 
 export enum WriteOptions {
   text = 'Texto',
-  url = 'URL',
-  location = 'Localização',
-  phoneNumber = 'Número de telefone',
+  //url = 'URL',
+  //location = 'Localização',
+  //phoneNumber = 'Número de telefone',
 }
 
 export interface WriteOptionsListItem {

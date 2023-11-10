@@ -26,7 +26,7 @@ const Options = ({ onSelectOption }: OptionsProps) => {
     {
       icon: (
         <MaterialCommunityIcons
-          name="file-link-outline"
+          //name="file-link-outline"
           size={32}
           color={colors.secondaryColor}
         />
@@ -36,9 +36,9 @@ const Options = ({ onSelectOption }: OptionsProps) => {
     {
       icon: (
         <Ionicons
-          name="location-outline"
-          size={32}
-          color={colors.secondaryColor}
+          //name="location-outline"
+          //size={32}
+          //color={colors.secondaryColor}
         />
       ),
       name: WriteOptions.location,
@@ -46,7 +46,7 @@ const Options = ({ onSelectOption }: OptionsProps) => {
     {
       icon: (
         <MaterialCommunityIcons
-          name="cellphone"
+          //name="cellphone"
           size={32}
           color={colors.secondaryColor}
         />
