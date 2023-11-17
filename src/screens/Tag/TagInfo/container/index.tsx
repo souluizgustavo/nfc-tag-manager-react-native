@@ -27,21 +27,14 @@ const TagInfo = ({ onReadAgain, onShare, tagData }: TagInfo) => (
         size={54}
         color={colors.secondaryColor}
       />
-      <Title>Tag encontrada com sucesso!</Title>
+      <Title>TAG encontrada com sucesso!</Title>
       <DescriptionItem>
-        <DescriptionItemLabel>Conteúdo gravado na tag:</DescriptionItemLabel>
+        <DescriptionItemLabel>Código gravado na TAG:</DescriptionItemLabel>
         <DescriptionItemValue>{tagData}</DescriptionItemValue>
       </DescriptionItem>
     </Content>
     <Actions>
-      <ActionItem onPress={onShare}>
-        <MaterialCommunityIcons
-          name="share-variant"
-          size={32}
-          color={colors.secondaryColor}
-        />
-        <ActionItemName>Compartilhar</ActionItemName>
-      </ActionItem>
+      
       <ActionItem onPress={onReadAgain}>
         <MaterialCommunityIcons
           name="nfc-search-variant"

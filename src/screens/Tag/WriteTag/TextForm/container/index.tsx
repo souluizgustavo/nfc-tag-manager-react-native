@@ -11,14 +11,14 @@ interface TextFormProps {
 const TextForm = ({ onChangeText, onNext, text }: TextFormProps) => (
   <Container>
     <Form>
-      <Title>Qual texto você deseja escrever na tag?</Title>
+      <Title>Digite o código que você deseja registrar na TAG:</Title>
       <TextInput
         onChangeText={inputText => onChangeText(inputText)}
         value={text}
       />
     </Form>
     <Button isDisabled={text === ''} onPress={onNext}>
-      Continuar
+      GRAVAR
     </Button>
   </Container>
 );
